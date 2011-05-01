@@ -16,8 +16,8 @@
 #    Set in your this variable in your shell startup (e.g. .bashrc)
 ##########################################################################  
 APPNAME = vegrok
-VERSION = 1.1
+VERSION = 1.2
 
-ZIP_EXCLUDE= -x .git/\* -x xml/* -x artwork/*
+ZIP_EXCLUDE= -x .DS_Store -x .git/\* -x server/\* 
 
 include ../app.mk

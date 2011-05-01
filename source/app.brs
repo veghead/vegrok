@@ -21,12 +21,12 @@ Sub initTheme()
 
     theme.OverhangOffsetSD_X = "72"
     theme.OverhangOffsetSD_Y = "31"
-    theme.OverhangSliceSD = "pkg:/images/Overhang_Background_SD.png"
+    theme.OverhangSliceSD = "pkg:/images/Overhang_Background_SD.jpg"
     theme.OverhangLogoSD  = "pkg:/images/Overhang_Logo_SD.png"
 
     theme.OverhangOffsetHD_X = "125"
     theme.OverhangOffsetHD_Y = "35"
-    theme.OverhangSliceHD = "pkg:/images/Overhang_Background_HD.png"
+    theme.OverhangSliceHD = "pkg:/images/Overhang_Background_HD.jpg"
     theme.OverhangLogoHD  = "pkg:/images/Overhang_Logo_HD.png"
 
     app.SetTheme(theme)
@@ -233,20 +233,20 @@ Function showHomeScreen(screen) As Integer
     o.Title       = "Audio"
     o.Description = "Audio"
     o.ShortDescriptionLine1 = "Audio"
-    o.SDPosterURL = "file://pkg:/images/audio.png"
+    o.SDPosterURL = "file://pkg:/images/audio.jpg"
     o.HDPosterURL = o.SDPosterURL
     topLevel.Push(o)
     o = init_category_item()
     o.Title       = "Video"
     o.Description = "Video"
-    o.SDPosterURL = "file://pkg:/images/video.png"
+    o.SDPosterURL = "file://pkg:/images/video.jpg"
     o.HDPosterURL = o.SDPosterURL
     o.ShortDescriptionLine1 = "Video"
     topLevel.Push(o)
     o = init_category_item()
     o.Title       = "Settings"
     o.Description = "Set Server IP address"
-    o.SDPosterURL = "file://pkg:/images/settings.png"
+    o.SDPosterURL = "file://pkg:/images/settings.jpg"
     o.HDPosterURL = o.SDPosterURL
     o.ShortDescriptionLine1 = "Settings"
     topLevel.Push(o)
